@@ -1,0 +1,25 @@
+Kacchi/
+├── Frontend/
+│   ├── index.php
+│   ├── login.php
+│   ├── register.php
+│   ├── orders.php
+│   ├── logout.php
+│   └── assets/
+│       ├── css/
+│       │   ├── main.css
+│       │   └── admin.css
+│       └── js/
+│           └── script.js
+├── Backend/
+│   ├── db.php
+│   ├── place_order.php
+│   ├── admin/
+│   │   ├── admin_login.php
+│   │   ├── admin_dashboard.php
+│   │   ├── add_item.php
+│   │   └── edit_item.php
+│   ├── admin_logout.php
+│   └── delete_item.php
+└── Database/
+    └── kacchi_restaurant.sql
