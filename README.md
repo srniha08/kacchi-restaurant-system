@@ -1,12 +1,40 @@
-# kacchi-restaurant-system
-Software Engineering Lab Project - Kacchi Restaurant Management System
-🍛 Kacchi Khacchi - A Love Story in Every Byte! ❤️
-Born from our obsession with Narayanganj's legendary Kacchi! As true Kacchi lovers, we've turned our passion into code - creating a digital feast that brings the same joy to ordering as that first aromatic bite!
+# Kacchi Khacchi – Online Kacchi Ordering System 🍛✨
 
-This isn't just another restaurant website; it's our heart served on a digital platter 🥘. Every line of code is seasoned with the same love our grandmothers put into their secret recipes. We've blended traditional flavors with modern tech because great Kacchi deserves a great ordering experience!
+**“I’m a die-hard Kacchi lover from Narayanganj.  
+Every weekend I crave Kacchi, but there was no proper online place to order it from local shops…  
+So I built one myself!”**
 
-From late-night coding sessions fueled by Kacchi cravings to designing interfaces that feel as warm as freshly steamed rice - this project is our love letter to every Kacchi enthusiast in Narayanganj!
+This is **Kacchi Khacchi** – a full-stack online food ordering system made purely for Kacchi lovers.
 
-Because some cravings aren't just hunger - they're emotions waiting to be served! ✨
+### Features
 
-Tech with taste, code with compassion - that's the Kacchi Khacchi promise!
+**For Customers**
+- Gorgeous food-themed UI
+- Browse Signature Kacchi, Weekly Specials & Drinks
+- Smart cart with live updates
+- Register → Order → Track history
+- Instant order confirmation
+
+**For Restaurant (Admin)**
+- Login: `admin` / `admin`
+- Full dashboard (revenue, pending orders, etc.)
+- Add / Edit / Delete menu items with live image preview
+- Update order status in real-time
+
+### Tech Stack
+- PHP  + MySQL (PDO)
+- JavaScript (no React/Vue)
+- Pure HTML + CSS
+- Cart stored in localStorage
+
+- ### How to Run
+1. Put folder in your server (XAMPP → htdocs)
+2. Create database `kacchi_restaurant` → import `.sql` file  
+   OR just open the site – it auto-creates everything
+3. Visit: `http://localhost/your-folder-name`
+4. Admin → `your-site.com/admin/admin_login.php`  
+   Username: `admin` | Password: `admin123`
+
+
+That’s it! Ready to take Kacchi orders...
+Made with biryani love in Narayanganj!
